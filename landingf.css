@@ -1,0 +1,590 @@
+header, footer {
+  width: 100%;
+  height: 60px;
+  border: 1.5px solid black;
+  background-color: #353030;
+  float: left;
+}
+section {
+  float: left;
+}
+
+header nav {
+  display: block;
+  position: relative;
+  top: 16px;
+  left: 680px;
+}
+
+header nav li {
+  display: inline-block;
+  border-right: 1px solid black;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 24px;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+Main {
+width: 100%;
+height: 700px;
+}
+
+ .toptitle {
+  width: 23%;
+  height: 50px;
+  font-size:28px;
+  color: #ffffff;
+  position: relative;
+  top:-55px;
+  left: 8px;
+  font-family: 'Teko', sans-serif;
+
+}
+
+
+.topblock {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  top: -0px;
+  opacity: 0.6;
+}
+
+
+.techinfo {
+  width: 100%;
+  height: 700px;
+  background-color: green;
+    background-color: #607D8B;
+}
+
+.contact {
+  width: 100%;
+  height: 400px;
+    background-color:#3189a4;
+}
+.searchbox {
+  color: #d6d6d6;
+  font-size: 13px;
+  background-color: #ffffff;
+  width:160px;
+  height: 40px;
+  position: relative;
+  top: -17px;
+  left: 870px;
+  font-family: 'Teko', sans-serif;
+}
+
+.words {
+  color: #22bcf7;
+  font-size: 50px;
+  width: 45%;
+  height: 400px;
+  position: absolute;
+  top: 145px;
+  left: 35px;
+  font-family: 'Teko', sans-serif;
+  line-height: 80px;
+}
+
+.wordsb {
+  color: #22bcf7;
+  font-size: 30px;
+  font-family: 'Satisfy', cursive;
+  position: absolute;
+  top: 345px;
+  left: 190px;
+}
+
+.logo {
+  height: 400px;
+  width:40%;
+  position: absolute;
+  top: 155px;
+  left: 730px;
+}
+
+.title {
+    font-family: 'Teko', sans-serif;
+    height: 120px;
+    color: black;
+    width: 35%;
+    position: relative;
+    top: -30px;
+    left: 450px;
+    font-size: 35px;
+
+}
+
+
+ .imagehtml {
+  height: 200px;
+  width:200px;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 866px;
+  left:290px;
+
+}
+
+.conthtml {
+  height: 300px;
+  width:300px;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: 275px;
+  left: -120px;
+}
+.imagecss {
+ height: 210px;
+ width:160px;
+ font-family: 'Teko', sans-serif;
+ font-size: 25px;
+ position: absolute;
+ top: 860px;
+ left:780px;
+}
+.contcss {
+  height: 300px;
+  width:300px;
+  font-family: 'Teko', sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: 275px;
+  left: 40px;
+}
+
+.process {
+  font-size: 25px;
+  color:  #b2b2bc;
+  font-family: 'Teko', sans-serif;
+  line-height: 30px;
+}
+
+footer {
+  height: 30px;
+ }
+/*placing the images*/
+section.imagehtml img {
+  width:100%;
+  height: 100%;
+}
+section.imagecss img {
+  width: 100%;
+  height: 100%;
+}
+section.topblock img {
+  width: 100%;
+  height: 100%;
+}
+
+section.logo img {
+  width: 100%;
+  height: 100%;
+}
+/*Now, to making it responsive*/
+/*Making the websites a bit responsive*/
+/*for fuck sakes, this shit is fucking up*/
+@media only screen and (max-width:1230px )
+{
+section.searchbox{
+  left: 670px;
+}
+header nav {
+  left:580px;
+}
+section.logo {
+  left: 620px;
+}
+section.title {
+  left: 380px;
+}
+section.imagehtml {
+  left: 180px;
+}
+section.conthtml {
+  left: -210px;
+}
+section.imagecss {
+  left: 680px;
+}
+section.contcss {
+  left: -60px;
+}
+}
+@media only screen and (max-width:1143px) {
+  section.searchbox{
+    left: 650px;
+  }
+  header nav {
+    left: 500px;
+  }
+  section.words {
+    font-size: 45px;
+  }
+  section.wordsb {
+    font-size: 25px;
+  }
+}
+@media only screen and (max-width:1087px) {
+  section.searchbox{
+    left: 580px;
+  }
+  header nav {
+    left: 470px;
+  }
+
+  section.logo {
+    left: 595px;
+  }
+}
+@media only screen and (max-width:1061px){
+ section.searchbox {
+  left:530px;
+ }
+header nav {
+  left:430px;
+}
+header nav li {
+  font-size: 20px;
+}
+section.logo {
+  left: 550px;
+}
+section.toptitle{
+  font-size: 24px;
+  top: -45px;
+}
+section.title {
+  left: 340px;
+}
+
+section.words {
+  font-size:40px;
+}
+section.wordsb {
+  font-size: 20px;
+  top: 325px;
+  left: 160px;
+
+}
+section.imagehtml {
+  left: 140px;
+}
+section.conthtml {
+  left: -250px;
+}
+section.imagecss {
+  left: 640px;
+}
+section.contcss {
+  left: -100px;
+}
+}
+
+@media only screen and (max-width: 940px){
+ section.searchbox {
+  left:490px;
+ }
+header nav {
+  left:390px;
+}
+header nav li {
+  font-size: 20px;
+}
+section.logo {
+  left: 490px;
+}
+section.toptitle{
+  font-size: 24px;
+  top: -45px;
+}
+section.title {
+  left: 240px;
+}
+
+section.words {
+  font-size:38px;
+}
+section.wordsb {
+  font-size: 18px;
+  top: 325px;
+  left: 160px;
+}
+section.imagehtml {
+  left: 50px;
+}
+section.conthtml {
+  left: -250px;
+  font-size: 20px;
+}
+section.imagecss {
+  left: 430px;
+  top: 870px;
+}
+section.contcss {
+  left: 420px;
+
+  top: -1px;
+  font-size: 20px;
+}
+section.techinfo{
+  height: 630px;
+}
+section.title {
+  font-size: 30px;
+}
+section.process {
+  font-size: 20px;
+}
+}
+@media only screen and (max-width: 890px){
+  section.logo {
+    left: 450px;
+    height: 350px;
+  }
+  section.searchbox{
+    left: 460px;
+    top: -10px;
+    height: 29px;
+    width: 120px;
+  }
+  header nav li {
+    font-size: 15px;
+  }
+  section.toptitle{
+    top: -35px;
+    font-size: 20px;
+  }
+  section.words {
+    font-size: 34px;
+  }
+  section.wordsb {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 798px){
+ section.searchbox {
+   left: 380px;
+   top: -10px;
+   height: 29px;
+   width: 120px;
+ }
+header nav {
+  left:300px;
+}
+header nav li {
+  font-size: 15px;
+}
+section.logo {
+  left: 400px;
+  height: 300px;
+}
+section.toptitle{
+  top: -35px;
+  font-size: 20px;
+}
+section.title {
+  left: 180px;
+  font-size: 25px;
+}
+Main {
+  height: 100px;
+}
+section.words {
+  font-size:28px;
+}
+section.wordsb {
+  font-size: 14px;
+  top: 305px;
+  left: 120px;
+}
+section.imagehtml {
+  left: 0px;
+}
+section.conthtml {
+  left: -250px;
+  font-size: 15px;
+  top: 300px;
+}
+section.imagecss {
+  left: 380px;
+  top: 870px;
+}
+section.contcss {
+  left: 370px;
+  top: -1px;
+  font-size: 15px;
+}
+section.techinfo{
+  height: 530px;
+}
+section.title {
+  font-size: 30px;
+}
+section.process {
+  font-size: 17px;
+}
+}
+@media only screen and (max-width: 697px){
+ section.searchbox {
+   left: 340px;
+   top: -10px;
+   height: 29px;
+   width: 120px;
+ }
+header nav {
+  left:260px;
+}
+header nav li {
+  font-size: 15px;
+}
+section.logo {
+  left: 350px;
+  height: 300px;
+}
+section.toptitle{
+  top: -35px;
+  font-size: 20px;
+}
+section.title {
+  left: 180px;
+  font-size: 10px;
+}
+Main {
+  height: 100px;
+}
+section.words {
+  font-size:28px;
+}
+section.wordsb {
+  font-size: 14px;
+  top: 305px;
+  left: 120px;
+}
+section.imagehtml {
+  left: 0px;
+  top: 930px;
+}
+section.conthtml {
+  left: -220px;
+  font-size: 13px;
+  top: 370px;
+}
+section.imagecss {
+  left: 340px;
+  top: 930px;
+}
+section.contcss {
+  left: 330px;
+  top: 66px;
+  font-size: 13px;
+}
+section.techinfo{
+  height: 530px;
+}
+section.title {
+  font-size: 30px;
+}
+section.process {
+  font-size: 17px;
+}
+}
+@media only screen and (max-width: 631px){
+  section.searchbox{
+    left: 320px;
+  }
+  header nav {
+    left:  200px;
+  }
+  section.imagecss{
+    height: 150px;
+    width: 130px;
+    left: 300px;
+  }
+  section.imagehtml{
+    height: 150px;
+    width: 150px;
+  }
+  section.contcss {
+    left: 290px;
+    font-size: 12px;
+    width: 200px;
+    top: 0px;
+  }
+  section.conthtml {
+    left: -200px;
+    font-size: 12px;
+    width: 200px;
+    top: 300px;
+  }
+}
+@media only screen and (max-width:595px){
+  section.searchbox{
+    left: 290px;
+  }
+  section.logo {
+    height: 250px;
+    left: 300px;
+  }
+  header nav {
+    left:  180px;
+  }
+  section.imagehtml{
+    height: 150px;
+    width: 150px;
+  }
+  section.conthtml {
+    left: -180px;
+    font-size: 12px;
+    width: 200px;
+    top: 300px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  section.logo {
+    height: 150px;
+    width: 150px;
+  }
+  section.words {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  section.wordsb {
+    font-size: 12px;
+    top: 240px;
+  }
+  section.techinfo{
+    height: 800px;
+  }
+  section.contcss{
+    top: 350px;
+    left: 100px;
+  }
+  section.imagecss{
+    top: 1275px;
+    left: 115px;
+  }
+  section.conthtml {
+    left: -60px;
+    top: 325px;
+  }
+  section.imagehtml {
+    left: 85px;
+  }
+  header nav li {
+    font-size: 12px;
+  }
+  section.searchbox {
+    left: 260px;
+    width: 90px;
+  }
+  section.title {
+    font-size: 25px; 
+  }
+}

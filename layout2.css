@@ -1,0 +1,23 @@
+header, footer {
+  clear: both;
+  border: 1.5px solid black;
+  float: left;
+  width: 99%;
+  height: 45px;
+}
+
+section {
+  float: left;
+  width: 99%;
+  height: 85px;
+  border: 1.5px solid black;
+}
+
+.NASDAQ {
+  width: 25%;
+  height: 85px;
+}
+
+.SNAP {
+  width: 73.6%;
+}

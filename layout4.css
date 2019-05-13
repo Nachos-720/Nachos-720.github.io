@@ -1,0 +1,67 @@
+header, footer {
+  clear: both;
+  border: 1.5px solid black;
+  width: 99%;
+}
+
+section {
+  float: left;
+  width: 99%;
+  height: 20px;
+  border: 1.5px solid black;
+}
+
+.lop {
+  width: 65%;
+  height: 45px;
+ }
+
+ .aws {
+   width: 33.6%;
+   height: 45px;
+ }
+
+ .drf {
+   width: 65%;
+   height: 95px;
+ }
+
+ .tgh {
+   width: 33.6%;
+   height: 400px;
+ }
+
+ .vcb {
+   width: 30%;
+   height: 302px;
+   position: relative;
+   top: -305px;
+ }
+
+ .yhu, .wer {
+   width: 17.2%;
+   height: 302px;
+   position: relative;
+   top: -305px;
+   left: 0px;
+ }
+
+ .vnb {
+   width: 25%;
+   height: 300px;
+   position: relative;
+   top: -365px;
+   left: 35px;
+ }
+
+footer {
+  position: relative;
+  top: -307px;
+}
+
+@media only screen and (max-width: 635px) {
+  section.vnb {
+    position: relative;
+    left: 23px;
+  }
+}

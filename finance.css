@@ -1,0 +1,923 @@
+header {
+  width: 100%;
+  height: 70px;
+  background-color: #505f60 ;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+}
+
+header nav {
+  display: block;
+  position: relative;
+}
+
+header nav li {
+  display: inline-block;
+  border-right: 1px solid white;
+  position: relative;
+  left: 680px;
+  top: 24px;
+  margin-right: 2px;
+  margin-left: 2px;
+  font-size: 14px;
+  font-family: 'Roboto Slab', serif;
+  color: white;
+}
+header nav li a{
+  color: white;
+}
+
+
+.searchbox input  {
+  width: 190px;
+  height: 25px;
+  position: relative;
+  left: 1160px;
+  top: -5px;
+}
+
+section {
+  float: left;
+}
+
+.webtitle {
+  color:#ffffff ;
+  font-size: 35px;
+  font-family: 'Gugi', cursive;
+  position: relative;
+  top: 15px;
+}
+.logo {
+  height: 400px;
+  width: 400px;
+  position: relative;
+  top: 290px;
+  left: 1100px;
+}
+.main {
+  width: 100%;
+  height: 700px;
+  background-color:#8cd8b7 ;
+  color: white;
+}
+.background {
+  height: 700px;
+  width: 100%;
+  position:absolute;
+  top: 75px;
+  width: 100%;
+  opacity: 0.25;
+}
+.title {
+  font-size: 80px;
+  color: #ffffff;
+  position: absolute;:
+  top: 20px;
+  left:12px;
+  font-family: 'Lobster', cursive;
+}
+
+.quote {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  position: absolute;
+  top: 180px;
+  left: 40px;
+}
+
+.interactivechart {
+  width: 100%;
+  height: 700px;
+  color: white;
+}
+
+.investpic {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  top: 820px;
+  left: 720px;
+
+}
+
+.invest {
+  width: 600px;
+  height: 200px;
+  font-size: 20px;
+  position: absolute;
+  left: 30px;
+  top: 820px;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+}
+.Back {
+  width: 99%;
+  height: 700px;
+  opacity: 0.25;
+  position:absolute;
+}
+
+section.tips img {
+  width: 100%;
+  height: 100%;
+}
+section.logo  img {
+  width: 100%;
+  height: 100%:
+}
+section.background img{
+  width: 100%;
+  height: 100%;
+}
+section.Back img {
+  width: 100%;
+  height: 100%;
+}
+section.backdrop img {
+  width: 100%;
+  height: 100%;
+}
+
+.investintro {
+  width: 50%;
+  height: 500px;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+}
+
+section.backdrop {
+  width: 100%;
+  height: 500px;
+}
+
+section.drop img {
+  width: 100%;
+  height: 100%;
+}
+.videotitle {
+  color: white  ;
+  position: absolute;
+  top: 1500px;
+  left: 60px;
+  font-size: 20px;
+}
+
+.video {
+  position: absolute;
+  top: 1550px;
+  left: 120px;
+}
+
+.tips {
+  width: 50%;
+  height: 500px;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+}
+.drop {
+  width: 100%;
+  height: 700px;
+  position: relative;
+  top: -201px;
+  left: 1px;
+  opacity: 0.4;
+      font-family: 'Roboto Slab', serif;
+
+}
+
+.investips {
+  position: absolute;
+  top: 1470px;
+
+  color: #9abcf4;
+
+  font-style: oblique;
+  text-align: left;
+  font-weight: 600;
+  font-size: 19px;
+      font-family: 'Roboto Slab', serif;
+}
+
+.playlist {
+  width: 600px;
+  height: 600px;
+  color: black;
+  position: absolute;
+  top:500px;
+  left:90px;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+}
+
+.platie {
+  width: 60%;
+  display: inline;
+  height: 50px;
+  color: #f4f9f7;
+  font-size: 18px;
+  position: absolute;
+  top: 400px;
+  left: 90px;
+  font-family: 'Roboto Slab', serif;
+}
+
+
+section.final img {
+  width: 100%;
+  height: 100%;
+}
+.final {
+  width: 100%;
+  height: 600px;
+  float: left;
+}
+
+.nope {
+width: 100%;
+height: 400px;
+  position: absolute;
+  top: 1990px;
+  color: white;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    font-size: 25px;
+    word-wrap: break-word;
+}
+
+footer {
+  width: 99%;
+  height: 70px;
+  background-color:#505f60;
+  position: absolute;
+  top: 2580px;
+  color: white;
+  line-height: 1px;
+  font-family: 'Teko', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+section.really {
+  height: 10px;
+}
+
+@media only screen and (max-width:1290px)
+{
+header nav li {
+    position: relative;
+
+    left: 500px;
+  }
+   section.searchbox input{
+      position: relative;
+    left: 940px;
+  }
+
+  section.logo {
+    left: 850px;
+  }
+
+  section.investpic img  {
+    height: 400px;
+    width: 500px;
+  }
+
+  section.invest {
+    font-size: 17px;
+  }
+
+  section.Back  img{
+    height: 600px;
+  }
+
+  section.investintro   {
+    position: relative;
+    top: -99px;
+  }
+  section.tips {
+    position: relative;
+    top: -99px;
+  }
+
+  section.videotitle {
+    position: relative;
+    top: -470px;
+    left: 18px;
+  }
+  section.video {
+    position: relative;
+    top: -460px;
+    left: 48px;
+  }
+  section.investips {
+    position: relative;
+    top: -520px;
+    font-size: 17px;
+  }
+  section.final {
+    position: relative;
+    top: -99px;
+    height: 590px;
+  }
+  section.nope {
+    position: relative;
+    top: -605px;
+    font-size: 23px;
+    height: 500px;
+  }
+  footer {
+    position: relative;
+    top: 2391px;
+    width: 100%;
+
+  }
+  section.really {
+    position: relative;
+    top: -2495px;
+    color: white ;
+  }
+}
+
+@media only screen and (max-width:1252px)
+{
+header nav li {
+    position: relative;
+
+    left: 460px;
+  }
+   section.searchbox input{
+      position: relative;
+    left: 900px;
+  }
+  section.investpic img  {
+    position: relative;
+    left: -17px;
+  }
+
+}
+
+@media only screen and (max-width: 1214px)
+{
+ header nav li {
+   position: relative;
+   left: 400px;
+ }
+
+ section.searchbox {
+   position: relative;
+   left: -40px;
+ }
+
+  section.logo {
+    left: 810px;
+  }
+
+  section.investpic img  {
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: -20px;
+  }
+  section.playlist iframe {
+    height: 232px;
+    width: 400px;
+    position: relative;
+    left: -170px;
+  }
+  section.platie {
+    position: relative;
+    left: -390px;
+    top: 350px;
+  }
+section.title {
+  font-size: 70px;
+}
+section.quote {
+  font-size: 30px;
+}
+section.investpic img {
+  left: -50px;
+}
+section.invest {
+  font-size: 18px;
+}
+section.investips {
+  font-size: 16px;
+}
+}
+@media only screen and (max-width: 1158px)
+{
+header nav li {
+    position: relative;
+
+    left: 400px;
+  }
+   section.searchbox input{
+      position: relative;
+    left: 880px;
+  }
+section.logo img {
+  position: relative;
+  left: -40px;
+}
+section.investpic img {
+  position: relative;
+  left: -90px;
+}
+section.invest {
+  font-size: 17px;
+  position: relative;
+  top: 15px;
+  left: 0px;
+}
+
+section.videotitle {
+  position: relative;
+  top: -480px;
+  left:0px;
+}
+}
+
+@media only screen and (max-width:1147px){
+  header nav li {
+      position: relative;
+
+      left: 380px;
+    }
+     section.searchbox input{
+        position: relative;
+      left: 860px;
+    }
+
+    section.interactivechart {
+      height: 950px;
+    }
+
+ section.Back img  {
+   height: 950px;
+ }
+  section.investpic {
+    position: relative;
+    top: 20px;
+    left: 400px;
+  }
+  section.invest {
+    position: relative;
+    top: 440px;
+    left: 0px;
+  }
+
+  section.investintro {
+    height: 500px;
+    width:100%;
+  }
+
+  section.backdrop img {
+    height: 500px;
+    width: 100%;
+  }
+
+  section.videotitle
+  {
+    position: relative;
+    top: -480px;
+    left: 280px;
+  }
+  section.video {
+    position: relative;
+    top: -420px;
+    left: -220px;
+  }
+  section.tips {
+    position: relative;
+    left: 0px;
+    top: -99px;
+    width: 100%;
+    height: 400px;
+  }
+  section.investips {
+    position: relative;
+    top: -400px;
+    left: 60px;
+  }
+
+  footer {
+    position: relative;
+    top: 3041px;
+  }
+
+  section.really {
+    position: relative;
+    top: -3150px;
+  }
+}
+
+@media only screen and (max-width:1120px) {
+  header nav li {
+    position: relative;
+    left: 300px;
+  }
+  section.searchbox
+  {
+    position: relative;
+    left: -100px;
+  }
+  section.logo {
+    position: relative;
+    left: 750px;
+  }
+  section.title {
+    font-size: 60px;
+  }
+  section.quote
+  {
+    font-size: 20px;
+  }
+  section.nope {
+    font-size: 20px;
+    position: relative;
+    top: -500px;
+    left: 3px;
+  }
+  section.final {
+    height: 500px;
+  }
+  footer {
+    top: 2951px;
+  }
+  section.really {
+    top: -3060px;
+  }
+  section.investips {
+    left: 30px;
+  }
+}
+
+@media only screen and (max-width: 1063px) {
+  header nav li {
+    font-size: 12px;
+    left: 350px;
+  }
+  section.searchbox {
+    left: -120px;
+    top: 8px;
+
+  }
+
+  section.searchbox input {
+    width: 100px;
+    height: 20px;
+  }
+  section.webtitle{
+    font-size: 30px;
+  }
+  section.logo {
+    left: 640px;
+    top: 390px;
+    height: 300px;
+    width: 300px;
+  }
+
+  section.platie {
+    left: -250px;
+    font-size: 12px;
+  }
+
+  section.playlist iframe
+  {
+    left: -200px ;
+    width: 250px ;
+    height: 250px;
+  }
+
+  section.investips {
+    font-size: 15px;
+    left: 2px;
+  }
+}
+
+@media only screen and (max-width:1023px) {
+  section.investintro {
+    top: 0px;
+  }
+  section.videotitle{
+    left: 120px;
+  }
+  section.video {
+    left: 160px;
+    top: -470px;
+  }
+  section.tips {
+    top: 0px;
+  }
+  section.final {
+    top: 0px;
+  }
+  footer {
+    top: 3050px;
+  }
+  section.invest {
+    left: -160px;
+  }
+  section.investpic
+  {
+    left: 220px;
+  }
+}
+
+@media only screen and (max-width: 950px)
+{
+  section.nope {
+    font-size: 17px;
+    top: -450px;
+  }
+  section.final{
+    height: 450px;
+  }
+  footer {
+    top: 3000px;
+  }
+  section.really {
+    top: -3005px;
+  }
+  header nav li {
+    left: 300px;
+  }
+  section.searchbox {
+    left: -170px;
+  }
+}
+
+@media only screen and (max-width: 910px){
+  section.title {
+    font-size: 45px;
+  }
+  section.quote {
+    font-size: 25px;
+    top: 150px;
+  }
+  header nav li {
+    left: 270px;
+  }
+  section.searchbox {
+    left: -210px;
+  }
+  section.logo {
+    left: 600px;
+  }
+  section.invest {
+    left: 120px;
+    top: 150px;
+  }
+}
+
+@media only screen and (max-width: 845px) {
+  header nav li {
+    font-size: 11px;
+    left: 220px;
+  }
+  section.searchbox {
+    left: -280px;
+  }
+  section.logo {
+    left: 520px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  section.platie {
+    top: 70px;
+    left: 50px;
+  }
+  section.investips {
+    font-size: 14px;
+    top:-390px;
+  }
+  section.tips {
+    height: 380px;
+  }
+  footer {
+    top: 2980px;
+  }
+  section.really {
+    top:-2989px;
+  }
+  header nav li {
+    left: 180px;
+  }
+  section.searchbox {
+    left: -330px;
+  }
+  section.logo {
+    left: 470px;
+  }
+  section.platie{
+    left: 15px;
+  }
+  section.playlist {
+    left: 50px;
+  }
+  section.invest {
+    left: 20px;
+  }
+  section.investpic {
+    left: 110px;
+  }
+  section.videotitle {
+    left: 25px ;
+  }
+  section.video {
+    left: 30px;
+  }
+}
+
+@media only screen and (max-width: 730px){
+  header nav li {
+    left: 120px;
+  }
+section.searchbox {
+  left: -390px;
+}
+section.investips {
+  font-size: 12px;
+  top: -300px;
+}
+section.tips {
+  height: 300px;
+}
+footer {
+  top: 2700px;
+}
+section.really {
+  top: -2705px;
+}
+section.interactivechart {
+  height: 750px;
+}
+section.Back img {
+  height: 750px;
+}
+section.investintro {
+  width: 100%;
+}
+section.invest {
+  font-size: 15px;
+}
+}
+@media only screen and (max-width: 685px) {
+  section.title {
+    font-size: 35px;
+  }
+  section.quote {
+    font-size: 25px;
+    top: 120px;
+  }
+  section.logo {
+    width: 200px;
+    height: 200px;
+    left: 490px;
+    top: 495px;
+  }
+  section.platie {
+    top: 380px;
+    left: -190px;
+  }
+  section.nope{
+    top:-480px;
+  }
+  footer {
+    top: 2700px;
+  }
+}
+@media only screen and (max-width: 650px) {
+  header nav li {
+    left: 50px;
+  }
+  section.searchbox {
+    left: -460px;
+  }
+  section.logo {
+    left: 450px;
+  }
+  section.platie {
+    font-size: 10px;
+  }
+  section.final {
+  height: 350px;
+  }
+  section.nope {
+    font-size: 14px;
+    top: -370px;
+  }
+  footer {
+    top: 2600px;
+  }
+  section.really {
+    top: -2610px;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  header nav li {
+    left: 10px;
+  }
+  section.searchbox {
+    left: -505px;
+  }
+  section.logo {
+    left: 420px;
+  }
+  section.invest {
+    font-size: 14px;
+    width: 95%;
+  }
+  section.videotitle {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+section.searchbox input {
+  width: 70px;
+}
+section.searchbox {
+  left: -500px;
+}
+section.logo {
+  left: 380px;
+}
+section.platie {
+width: 65%;
+top: 170px;
+left: 20px;
+}
+section.investpic {
+  left: 103px;
+}
+
+
+section.nope {
+  font-size: 13px;
+  width: 98%;
+  }
+
+footer {
+  top: 2600px;
+}
+}
+
+@media only screen and (max-width: 500px) {
+
+header nav li {
+  font-size: 10px;
+  left: 20px;
+}
+section.searchbox input {
+  width: 45px;
+}
+section.searchbox {
+  left: -515px;
+}
+section.title {
+  font-size: 25px;
+}
+section.quote {
+  font-size: 15px;
+}
+section.logo {
+  left: 340px;
+}
+section.platie {
+  width: 75%;
+}
+section.investpic img {
+  width: 400px;
+
+}
+section.investpic {
+  left: 110px;
+}
+section.interactivechart {
+  width: 97%;
+}
+section.Back img {
+  width: 100%;
+}
+section.Back  {
+  width: 97%;
+}
+section.investintro {
+  width: 100%;
+}
+section.video {
+  left: 10px;
+}
+section.investips {
+  width: 95%;
+  font-size: 11px;
+}
+section.nope {
+  font-size: 12px;
+}
+footer {
+  top: 2600px;
+}
+}

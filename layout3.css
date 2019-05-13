@@ -1,0 +1,54 @@
+header, footer {
+  clear: both;
+  border: 1.5px solid black;
+  width: 99%;
+  height: 75px;
+}
+
+section {
+  float: left;
+  border: 1.5px solid black;
+  width: 99%;
+  height: 85px;
+}
+
+.WTA, .LAN, .QQQ {
+  width: 20%;
+}
+
+.GOLD {
+  width: 38%;
+}
+
+
+@media only screen and (max-width:610px)
+{
+  section.QQQ {
+    position: relative;
+    top: -87px;
+    left: 465px;
+  }
+  footer {
+    position: relative;
+    top: -90px;
+  }
+}
+
+@media only screen and (max-width:560px)
+{
+  section.QQQ {
+    left: 430px;
+  }
+}
+@media only screen and (max-width:510px)
+{
+  section.QQQ {
+    left:390px;
+  }
+}
+@media only screen and (max-width:500px)
+{
+  section.QQQ {
+    left:382px;
+  }
+}
